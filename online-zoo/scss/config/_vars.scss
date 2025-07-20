@@ -1,0 +1,32 @@
+$mainOffset: 16px;
+$mainFont: "Roboto";
+
+$maxWidth: 1600;
+$minWidth: 320;
+$maxWidthContainer: 1220;
+$containerWidth: 1160;
+
+$headerHeight: 90px;
+$footerHeight: 60px;
+
+$whiteColor: #f8f8f8;
+$firstAccentColor: #F2785C;
+$secondAccentColor: #0D606F;
+$mainGradient: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+$fontColor: #333B41;
+$main-bg: #2c3d49;
+$footerBackground: #111115;
+$main-bg-hover: #333B41;
+$btnBoxShadow:  0px 4px 4px rgba(0, 0, 0, 25%), 
+                0px 2px 3px rgba(13, 96, 111, 16%);
+
+$lightBoxShadow:  0 0 2px 0 rgba(#000, 10%), 
+                  0 0 4px 0 rgba(#000, 10%), 
+                  0 0 8px 0 rgba(#000, 10%);
+
+$hoverBoxShadow:  0 0 5px 0 rgba(#000, 15%), 
+                  0 0 10px 0 rgba(#000, 15%), 
+                  0 0 15px 0 rgba(#000, 15%);
+
+$standartTrans: all 280ms ease 0ms;
+$mainRadius: 25px;

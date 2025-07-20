@@ -1,0 +1,29 @@
+[class*="__container"] {
+    max-width: 1220px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+    @media (max-width: 640px) {
+      padding: 0 20px;
+  }
+    @media (max-width: 340px) {
+      padding: 0 10px;
+    }
+  }
+  .wrapper {
+    position: relative;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 999px) {
+      @include adaptiveClamp("padding-top", 80, 34, 1000, 640, 1);
+  }
+  }
+  body {
+    width: 100%;
+  }
+
+  h1 {
+    display: none;
+  }

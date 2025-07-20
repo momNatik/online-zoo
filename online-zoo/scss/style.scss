@@ -1,0 +1,16 @@
+@use "sass:math";
+
+@import 'config/fonts';
+@import 'config/vars';
+@import 'config/mixins';
+@import 'config/reset';
+@import 'config/global';
+
+@import 'layouts/header';
+@import 'layouts/backstage';
+@import 'layouts/testimonials';
+@import 'layouts/choose';
+@import 'layouts/donate';
+@import 'layouts/pick';
+@import 'layouts/footer';
+@import 'layouts/burger-menu';
